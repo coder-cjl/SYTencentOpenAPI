@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYTencentOpenAPI: 349998fb7b3d6cc7fddf91bbaffa7adfd8cdb2e2
+  SYTencentOpenAPI: 3266dbe9ef255c1d7d07e578369d6741b438cf9e
 
 PODFILE CHECKSUM: c65faf089de006b19a89ed470e0b6abbe6ad46ae
 

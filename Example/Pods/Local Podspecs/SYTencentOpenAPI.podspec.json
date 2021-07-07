@@ -2,7 +2,7 @@
   "name": "SYTencentOpenAPI",
   "version": "0.0.1",
   "summary": "A short description of SYTencentOpenAPI.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "A short description of SYTencentOpenAPI.",
   "homepage": "https://github.com/coder-cjl/SYTencentOpenAPI",
   "license": {
     "type": "MIT",
@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SYTencentOpenAPI/Classes/**/*",
   "resources": "SYTencentOpenAPI/Assets/*.bundle",
   "vendored_frameworks": "SYTencentOpenAPI/Vendors/*.framework",
   "pod_target_xcconfig": {
@@ -31,7 +30,8 @@
     "SystemConfiguration",
     "CoreGraphics",
     "Security",
-    "CoreTelephony"
+    "CoreTelephony",
+    "WebKit"
   ],
   "libraries": [
     "sqlite3.0",

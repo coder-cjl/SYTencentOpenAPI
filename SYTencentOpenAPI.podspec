@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A short description of SYTencentOpenAPI.
                        DESC
 
   s.homepage         = 'https://github.com/coder-cjl/SYTencentOpenAPI'
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   s.resource = 'SYTencentOpenAPI/Assets/*.bundle'
   s.pod_target_xcconfig = {
      'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Framework/' }
-  s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
+  s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony', 'WebKit'
   s.libraries    = 'sqlite3.0', 'stdc++', 'z', 'iconv'
 
   
