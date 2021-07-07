@@ -62,11 +62,11 @@
 		7B03F701ADB40BE13FCB9290 /* Pods-SYTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYTencentOpenAPI_Example.release.xcconfig"; path = "Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		81022FFA4478CFB2D6046509 /* Pods_SYTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYTencentOpenAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9505491DFDA4830AAED17591 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AD8BECA6A3C317528FC20168 /* SYTencentOpenAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYTencentOpenAPI.podspec; path = ../SYTencentOpenAPI.podspec; sourceTree = "<group>"; };
+		9505491DFDA4830AAED17591 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AD8BECA6A3C317528FC20168 /* SYTencentOpenAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYTencentOpenAPI.podspec; path = ../SYTencentOpenAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE517D0123D57F8403BE2E15 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYTencentOpenAPI_Example.debug.xcconfig"; path = "Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D52F4A6521C9A2310B3F3D38 /* Pods_SYTencentOpenAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYTencentOpenAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF24E7BA43499A4420EB757B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF24E7BA43499A4420EB757B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				46B5D490C402A1B1C1ED3BBE /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */,
 				006FAB2FE0709BAA7F8BFAC2 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6746BAE2D4F56428032A288E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6746BAE2D4F56428032A288E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SYTencentOpenAPI/SYTencentOpenAPI.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYTencentOpenAPI.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8BB7AB07BCBCEA687D02761A /* [CP] Check Pods Manifest.lock */ = {

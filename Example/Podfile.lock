@@ -1,0 +1,16 @@
+PODS:
+  - SYTencentOpenAPI (0.0.1)
+
+DEPENDENCIES:
+  - SYTencentOpenAPI (from `../`)
+
+EXTERNAL SOURCES:
+  SYTencentOpenAPI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYTencentOpenAPI: 38558e8977924f4e169d49e445cd41c1d29ce7e4
+
+PODFILE CHECKSUM: c65faf089de006b19a89ed470e0b6abbe6ad46ae
+
+COCOAPODS: 1.10.1

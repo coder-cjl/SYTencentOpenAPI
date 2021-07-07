@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7511CCB573831C59061EF0866F540D25 /* SYTencentOpenAPI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CF869C04E1749B55F93E4CAADB415390 /* Build configuration list for PBXAggregateTarget "SYTencentOpenAPI" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SYTencentOpenAPI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		155654B207ED882D860A4F764B5D53C9 /* Pods-SYTencentOpenAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92462C4111AE6D09DED8A004B21150A2 /* Pods-SYTencentOpenAPI_Example-dummy.m */; };
+		39EE4332798BCBC6EB9C44326F7F0E2A /* Pods-SYTencentOpenAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C81251601EB37CDAE4F6FB68D123168 /* Pods-SYTencentOpenAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46497F4331044B4BB484FC96803476D8 /* Pods-SYTencentOpenAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FACA10A3662FE82B8A1664ADE66213F /* Pods-SYTencentOpenAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		773A3693BACBC2B4143EE30ACBC34C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8F2B0FD43CE8A467C603F5CA9DE13456 /* Pods-SYTencentOpenAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7350518768F8163F61E124E40D04A /* Pods-SYTencentOpenAPI_Tests-dummy.m */; };
+		A24821FBD7E9891838344D7DE7B06440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4479D93FBC7FF4446DF5C1CCD95AE3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7511CCB573831C59061EF0866F540D25;
+			remoteInfo = SYTencentOpenAPI;
+		};
+		EB2CBFECD771055AB539C4CD855127C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B80577DC4F4D23ECB05964A715413BD;
+			remoteInfo = "Pods-SYTencentOpenAPI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054A46040B39B943B9A366AB1D9E0743 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = SYTencentOpenAPI/Vendors/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		1613F92E8519054DA14735147938B5C9 /* SYTencentOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYTencentOpenAPI.release.xcconfig; sourceTree = "<group>"; };
+		181BCDF1F1FC0C1E4CCE545140A5DEB2 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2646652FBF2D73BB5E5F664AD9F4214C /* Pods-SYTencentOpenAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		291166077731CE55C17D25E3F5CB4643 /* SYTencentOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYTencentOpenAPI.debug.xcconfig; sourceTree = "<group>"; };
+		2A2C3EF7AAB049C721C07E70ED4DAF54 /* Pods-SYTencentOpenAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Example-Info.plist"; sourceTree = "<group>"; };
+		30B031377E7D485673F7BF5A0AA48F0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B0ED747A216BE003B32EA21FDF288A2 /* Pods-SYTencentOpenAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYTencentOpenAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		3C81251601EB37CDAE4F6FB68D123168 /* Pods-SYTencentOpenAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYTencentOpenAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		43F349849F1DD386E11E4DB183721B7D /* Pods-SYTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4DF234FD62D92C66DBBC2176AFF390C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CC7350518768F8163F61E124E40D04A /* Pods-SYTencentOpenAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYTencentOpenAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		7057D7E783BEC176325BD18CEA40DB4F /* Pods-SYTencentOpenAPI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73AD477AA88E15E6CFA53DE5B39D1947 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		84AE7D91C89D1B014022683B2BD0A08A /* SYTencentOpenAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYTencentOpenAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92462C4111AE6D09DED8A004B21150A2 /* Pods-SYTencentOpenAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYTencentOpenAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		996406CF178482ACB533A7433D6E8607 /* Pods_SYTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYTencentOpenAPI_Tests.framework; path = "Pods-SYTencentOpenAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FACA10A3662FE82B8A1664ADE66213F /* Pods-SYTencentOpenAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYTencentOpenAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A96FDA4E45F6E01D402765CFCF4775F1 /* Pods-SYTencentOpenAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYTencentOpenAPI_Example.modulemap"; sourceTree = "<group>"; };
+		BAB7993BC8D548BF922923470A0B1C76 /* Pods_SYTencentOpenAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYTencentOpenAPI_Example.framework; path = "Pods-SYTencentOpenAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD61AB8F8AB9741130669515019B70D /* Pods-SYTencentOpenAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2CFC0E087EF0A7252F6A63A7892B58A /* Pods-SYTencentOpenAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYTencentOpenAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDF411002B268A3964360F2DB6632B88 /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF926CEB98B32068E02C481EEAC2CE99 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1C499BA5EB828C99BD68FD2C890081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773A3693BACBC2B4143EE30ACBC34C94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6338EBF3F780292338C6E5CF0069C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24821FBD7E9891838344D7DE7B06440 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C8FB7EAB66081E0F9985B41101F044 /* SYTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C74482A2E3238D77D9362DEDEF0B4CBE /* Frameworks */,
+				37F423BC37BA81E193F6C0D4542C0171 /* Pod */,
+				A66960A9A0391492DCC842825132506F /* Support Files */,
+			);
+			name = SYTencentOpenAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		37F423BC37BA81E193F6C0D4542C0171 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4DF234FD62D92C66DBBC2176AFF390C3 /* LICENSE */,
+				30B031377E7D485673F7BF5A0AA48F0B /* README.md */,
+				84AE7D91C89D1B014022683B2BD0A08A /* SYTencentOpenAPI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		408CB4783DDFCBF2D103B93B393E29F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22C8FB7EAB66081E0F9985B41101F044 /* SYTencentOpenAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6FD86F1BC07C7FA29987F00C28143223 /* Pods-SYTencentOpenAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0ED747A216BE003B32EA21FDF288A2 /* Pods-SYTencentOpenAPI_Tests.modulemap */,
+				181BCDF1F1FC0C1E4CCE545140A5DEB2 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown */,
+				BCD61AB8F8AB9741130669515019B70D /* Pods-SYTencentOpenAPI_Tests-acknowledgements.plist */,
+				6CC7350518768F8163F61E124E40D04A /* Pods-SYTencentOpenAPI_Tests-dummy.m */,
+				7057D7E783BEC176325BD18CEA40DB4F /* Pods-SYTencentOpenAPI_Tests-Info.plist */,
+				9FACA10A3662FE82B8A1664ADE66213F /* Pods-SYTencentOpenAPI_Tests-umbrella.h */,
+				CDF411002B268A3964360F2DB6632B88 /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */,
+				73AD477AA88E15E6CFA53DE5B39D1947 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYTencentOpenAPI_Tests";
+			path = "Target Support Files/Pods-SYTencentOpenAPI_Tests";
+			sourceTree = "<group>";
+		};
+		7E63C40E38C481393753BCF919410C1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8F5878BA0B466F15F1979DDBD4F4D40 /* Pods-SYTencentOpenAPI_Example */,
+				6FD86F1BC07C7FA29987F00C28143223 /* Pods-SYTencentOpenAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E7753B06A454BFE296C272C39FE535F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB7993BC8D548BF922923470A0B1C76 /* Pods_SYTencentOpenAPI_Example.framework */,
+				996406CF178482ACB533A7433D6E8607 /* Pods_SYTencentOpenAPI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66960A9A0391492DCC842825132506F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				291166077731CE55C17D25E3F5CB4643 /* SYTencentOpenAPI.debug.xcconfig */,
+				1613F92E8519054DA14735147938B5C9 /* SYTencentOpenAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYTencentOpenAPI";
+			sourceTree = "<group>";
+		};
+		C74482A2E3238D77D9362DEDEF0B4CBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054A46040B39B943B9A366AB1D9E0743 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8F5878BA0B466F15F1979DDBD4F4D40 /* Pods-SYTencentOpenAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A96FDA4E45F6E01D402765CFCF4775F1 /* Pods-SYTencentOpenAPI_Example.modulemap */,
+				C2CFC0E087EF0A7252F6A63A7892B58A /* Pods-SYTencentOpenAPI_Example-acknowledgements.markdown */,
+				2646652FBF2D73BB5E5F664AD9F4214C /* Pods-SYTencentOpenAPI_Example-acknowledgements.plist */,
+				92462C4111AE6D09DED8A004B21150A2 /* Pods-SYTencentOpenAPI_Example-dummy.m */,
+				2A2C3EF7AAB049C721C07E70ED4DAF54 /* Pods-SYTencentOpenAPI_Example-Info.plist */,
+				3C81251601EB37CDAE4F6FB68D123168 /* Pods-SYTencentOpenAPI_Example-umbrella.h */,
+				DF926CEB98B32068E02C481EEAC2CE99 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */,
+				43F349849F1DD386E11E4DB183721B7D /* Pods-SYTencentOpenAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-SYTencentOpenAPI_Example";
+			path = "Target Support Files/Pods-SYTencentOpenAPI_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				408CB4783DDFCBF2D103B93B393E29F3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9E7753B06A454BFE296C272C39FE535F /* Products */,
+				7E63C40E38C481393753BCF919410C1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19D842E42C7267DB679FBDF0571EF531 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46497F4331044B4BB484FC96803476D8 /* Pods-SYTencentOpenAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F3A12C37A63E3F53ACFDEF79F147EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4332798BCBC6EB9C44326F7F0E2A /* Pods-SYTencentOpenAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B80577DC4F4D23ECB05964A715413BD /* Pods-SYTencentOpenAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700E435FC6E7389AEE06A2E2C204BB35 /* Build configuration list for PBXNativeTarget "Pods-SYTencentOpenAPI_Example" */;
+			buildPhases = (
+				D1F3A12C37A63E3F53ACFDEF79F147EF /* Headers */,
+				475FDEB4E9D416E788500EA6010B2AC7 /* Sources */,
+				DC1C499BA5EB828C99BD68FD2C890081 /* Frameworks */,
+				E436048D05DDE08278D9DD435D88F7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F857615F7BBFE78348C176511123DFB /* PBXTargetDependency */,
+			);
+			name = "Pods-SYTencentOpenAPI_Example";
+			productName = "Pods-SYTencentOpenAPI_Example";
+			productReference = BAB7993BC8D548BF922923470A0B1C76 /* Pods_SYTencentOpenAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA750ACA29EC987311AD3CB92F5C32AF /* Pods-SYTencentOpenAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938CAA3BFF74DD3AB585C2575E29FEE0 /* Build configuration list for PBXNativeTarget "Pods-SYTencentOpenAPI_Tests" */;
+			buildPhases = (
+				19D842E42C7267DB679FBDF0571EF531 /* Headers */,
+				DCAD77D2D1CB9C22C1093520E725E512 /* Sources */,
+				F6338EBF3F780292338C6E5CF0069C39 /* Frameworks */,
+				235A1E04B32215A0BDB1E352A2735A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D1C29690C12F7E1F47C50A95F24E4B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYTencentOpenAPI_Tests";
+			productName = "Pods-SYTencentOpenAPI_Tests";
+			productReference = 996406CF178482ACB533A7433D6E8607 /* Pods_SYTencentOpenAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9E7753B06A454BFE296C272C39FE535F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B80577DC4F4D23ECB05964A715413BD /* Pods-SYTencentOpenAPI_Example */,
+				FA750ACA29EC987311AD3CB92F5C32AF /* Pods-SYTencentOpenAPI_Tests */,
+				7511CCB573831C59061EF0866F540D25 /* SYTencentOpenAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		235A1E04B32215A0BDB1E352A2735A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E436048D05DDE08278D9DD435D88F7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		475FDEB4E9D416E788500EA6010B2AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155654B207ED882D860A4F764B5D53C9 /* Pods-SYTencentOpenAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAD77D2D1CB9C22C1093520E725E512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2B0FD43CE8A467C603F5CA9DE13456 /* Pods-SYTencentOpenAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F857615F7BBFE78348C176511123DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYTencentOpenAPI;
+			target = 7511CCB573831C59061EF0866F540D25 /* SYTencentOpenAPI */;
+			targetProxy = 4479D93FBC7FF4446DF5C1CCD95AE3B4 /* PBXContainerItemProxy */;
+		};
+		9D1C29690C12F7E1F47C50A95F24E4B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SYTencentOpenAPI_Example";
+			target = 3B80577DC4F4D23ECB05964A715413BD /* Pods-SYTencentOpenAPI_Example */;
+			targetProxy = EB2CBFECD771055AB539C4CD855127C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11C89941C03CC3581961109E7DCB245F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291166077731CE55C17D25E3F5CB4643 /* SYTencentOpenAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3983A9E77B36C0029ECF68233E4A08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF411002B268A3964360F2DB6632B88 /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Tests/Pods-SYTencentOpenAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Tests/Pods-SYTencentOpenAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8D414495265F54274B5A6A5774503B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF926CEB98B32068E02C481EEAC2CE99 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57C0C812608371710ABBFC9E1F1126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F349849F1DD386E11E4DB183721B7D /* Pods-SYTencentOpenAPI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Example/Pods-SYTencentOpenAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE7F1E0B186AFD41E6BE7B96C4B087DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AD477AA88E15E6CFA53DE5B39D1947 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Tests/Pods-SYTencentOpenAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYTencentOpenAPI_Tests/Pods-SYTencentOpenAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDF155AB168675C1109A06AEFBB37F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1613F92E8519054DA14735147938B5C9 /* SYTencentOpenAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700E435FC6E7389AEE06A2E2C204BB35 /* Build configuration list for PBXNativeTarget "Pods-SYTencentOpenAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D414495265F54274B5A6A5774503B6 /* Debug */,
+				B57C0C812608371710ABBFC9E1F1126A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938CAA3BFF74DD3AB585C2575E29FEE0 /* Build configuration list for PBXNativeTarget "Pods-SYTencentOpenAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3983A9E77B36C0029ECF68233E4A08D /* Debug */,
+				DE7F1E0B186AFD41E6BE7B96C4B087DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF869C04E1749B55F93E4CAADB415390 /* Build configuration list for PBXAggregateTarget "SYTencentOpenAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C89941C03CC3581961109E7DCB245F /* Debug */,
+				EDF155AB168675C1109A06AEFBB37F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

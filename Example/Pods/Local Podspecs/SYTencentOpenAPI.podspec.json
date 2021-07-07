@@ -1,0 +1,41 @@
+{
+  "name": "SYTencentOpenAPI",
+  "version": "0.0.1",
+  "summary": "A short description of SYTencentOpenAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/coder-cjl/SYTencentOpenAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "coder-cjl": "cjlsire@126.com"
+  },
+  "source": {
+    "git": "https://github.com/coder-cjl/SYTencentOpenAPI.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SYTencentOpenAPI/Classes/**/*",
+  "vendored_frameworks": "SYTencentOpenAPI/Vendors/*.framework",
+  "pod_target_xcconfig": {
+    "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/Framework/"
+  },
+  "frameworks": [
+    "CoreLocation",
+    "QuartzCore",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Security",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "stdc++",
+    "z",
+    "iconv"
+  ]
+}

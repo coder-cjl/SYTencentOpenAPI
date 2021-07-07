@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYTencentOpenAPI'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of SYTencentOpenAPI.'
 
 # This description is used to generate tags and improve search results.
@@ -24,13 +24,18 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/coder-cjl/SYTencentOpenAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'coder-cjl' => 'chenjianlei@bianfeng.com' }
+  s.author           = { 'coder-cjl' => 'cjlsire@126.com' }
   s.source           = { :git => 'https://github.com/coder-cjl/SYTencentOpenAPI.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SYTencentOpenAPI/Classes/**/*'
+  s.vendored_frameworks = 'SYTencentOpenAPI/Vendors/*.framework'
+  s.pod_target_xcconfig = {
+     'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Framework/' }
+  s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
+  s.libraries    = 'sqlite3.0', 'stdc++', 'z', 'iconv'
+
   
   # s.resource_bundles = {
   #   'SYTencentOpenAPI' => ['SYTencentOpenAPI/Assets/*.png']
