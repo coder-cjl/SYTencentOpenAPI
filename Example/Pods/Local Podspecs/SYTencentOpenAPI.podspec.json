@@ -18,11 +18,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "resources": "SYTencentOpenAPI/Assets/*.bundle",
   "vendored_frameworks": "SYTencentOpenAPI/Vendors/*.framework",
-  "pod_target_xcconfig": {
-    "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/Framework/"
-  },
+  "resources": "SYTencentOpenAPI/Assets/*.bundle",
   "frameworks": [
     "CoreLocation",
     "QuartzCore",

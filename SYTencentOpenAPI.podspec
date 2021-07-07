@@ -30,15 +30,16 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
 #  s.source_files = 'SYTencentOpenAPI/Classes/**/*'
-  s.resource = 'SYTencentOpenAPI/Assets/*.bundle'
   s.vendored_frameworks = 'SYTencentOpenAPI/Vendors/*.framework'
   s.resource = 'SYTencentOpenAPI/Assets/*.bundle'
   s.pod_target_xcconfig = {
-     'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Framework/' }
+     'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Framework/',
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony', 'WebKit'
   s.libraries    = 'sqlite3.0', 'stdc++', 'z', 'iconv'
 
-  
   # s.resource_bundles = {
   #   'SYTencentOpenAPI' => ['SYTencentOpenAPI/Assets/*.png']
   # }
