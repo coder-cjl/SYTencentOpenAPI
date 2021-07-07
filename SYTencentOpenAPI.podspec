@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'SYTencentOpenAPI/Classes/**/*'
   s.resource = 'SYTencentOpenAPI/Assets/*.bundle'
   s.vendored_frameworks = 'SYTencentOpenAPI/Vendors/*.framework'
+  s.resource = 'SYTencentOpenAPI/Assets/*.bundle'
   s.pod_target_xcconfig = {
      'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Framework/' }
   s.frameworks   =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
