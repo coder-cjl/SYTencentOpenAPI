@@ -19,58 +19,60 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		155654B207ED882D860A4F764B5D53C9 /* Pods-SYTencentOpenAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92462C4111AE6D09DED8A004B21150A2 /* Pods-SYTencentOpenAPI_Example-dummy.m */; };
-		39EE4332798BCBC6EB9C44326F7F0E2A /* Pods-SYTencentOpenAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C81251601EB37CDAE4F6FB68D123168 /* Pods-SYTencentOpenAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46497F4331044B4BB484FC96803476D8 /* Pods-SYTencentOpenAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FACA10A3662FE82B8A1664ADE66213F /* Pods-SYTencentOpenAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155654B207ED882D860A4F764B5D53C9 /* Pods-SYTencentOpenAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF256C32ED0E6708F224B06298DACAB2 /* Pods-SYTencentOpenAPI_Example-dummy.m */; };
+		39EE4332798BCBC6EB9C44326F7F0E2A /* Pods-SYTencentOpenAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761E20ABDC46A477F2BADE5B0CD99D87 /* Pods-SYTencentOpenAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46497F4331044B4BB484FC96803476D8 /* Pods-SYTencentOpenAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 248AFEE6832F61F77DA3D1851D7E373E /* Pods-SYTencentOpenAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		773A3693BACBC2B4143EE30ACBC34C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8F2B0FD43CE8A467C603F5CA9DE13456 /* Pods-SYTencentOpenAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7350518768F8163F61E124E40D04A /* Pods-SYTencentOpenAPI_Tests-dummy.m */; };
+		8F2B0FD43CE8A467C603F5CA9DE13456 /* Pods-SYTencentOpenAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74A030D826F7078E61BED9D3A134BE /* Pods-SYTencentOpenAPI_Tests-dummy.m */; };
 		A24821FBD7E9891838344D7DE7B06440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4479D93FBC7FF4446DF5C1CCD95AE3B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7511CCB573831C59061EF0866F540D25;
-			remoteInfo = SYTencentOpenAPI;
-		};
-		EB2CBFECD771055AB539C4CD855127C5 /* PBXContainerItemProxy */ = {
+		98B46AD748174BF1C9F6ED3861956ACB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3B80577DC4F4D23ECB05964A715413BD;
 			remoteInfo = "Pods-SYTencentOpenAPI_Example";
 		};
+		FCD444A2E6E28F444847A4250664EEC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7511CCB573831C59061EF0866F540D25;
+			remoteInfo = SYTencentOpenAPI;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054A46040B39B943B9A366AB1D9E0743 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = SYTencentOpenAPI/Vendors/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		1613F92E8519054DA14735147938B5C9 /* SYTencentOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYTencentOpenAPI.release.xcconfig; sourceTree = "<group>"; };
-		181BCDF1F1FC0C1E4CCE545140A5DEB2 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2646652FBF2D73BB5E5F664AD9F4214C /* Pods-SYTencentOpenAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		291166077731CE55C17D25E3F5CB4643 /* SYTencentOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYTencentOpenAPI.debug.xcconfig; sourceTree = "<group>"; };
-		2A2C3EF7AAB049C721C07E70ED4DAF54 /* Pods-SYTencentOpenAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Example-Info.plist"; sourceTree = "<group>"; };
-		30B031377E7D485673F7BF5A0AA48F0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3B0ED747A216BE003B32EA21FDF288A2 /* Pods-SYTencentOpenAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYTencentOpenAPI_Tests.modulemap"; sourceTree = "<group>"; };
-		3C81251601EB37CDAE4F6FB68D123168 /* Pods-SYTencentOpenAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYTencentOpenAPI_Example-umbrella.h"; sourceTree = "<group>"; };
-		43F349849F1DD386E11E4DB183721B7D /* Pods-SYTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4DF234FD62D92C66DBBC2176AFF390C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6CC7350518768F8163F61E124E40D04A /* Pods-SYTencentOpenAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYTencentOpenAPI_Tests-dummy.m"; sourceTree = "<group>"; };
-		7057D7E783BEC176325BD18CEA40DB4F /* Pods-SYTencentOpenAPI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Tests-Info.plist"; sourceTree = "<group>"; };
+		06B140EB2226C8680C8072CA8DD7A09B /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BE711DC89C865936D693874BC511EB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B9A1D082C36FA10947BCD03B145468D /* Pods-SYTencentOpenAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYTencentOpenAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		248AFEE6832F61F77DA3D1851D7E373E /* Pods-SYTencentOpenAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYTencentOpenAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		266C2AF1C76EFB193FB145FA7C64A0E7 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = SYTencentOpenAPI/Assets/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		321D84F6D142B2FDD61ECCD77B2B4746 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		33DB2184C4A773E27E88AC942003E012 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = SYTencentOpenAPI/Vendors/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		3F2632BF4967443E306326893A2A361C /* SYTencentOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYTencentOpenAPI.debug.xcconfig; sourceTree = "<group>"; };
+		424CAC34213E60A3DA2FD4E42DA71E46 /* Pods-SYTencentOpenAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYTencentOpenAPI_Example.modulemap"; sourceTree = "<group>"; };
+		4418A72608AB522F7C0930A035F8D8A2 /* Pods-SYTencentOpenAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Example-Info.plist"; sourceTree = "<group>"; };
+		4B3EDF0F9CEBF6FF153303A1D2F8F889 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		518DDA6315251DEB3E8F7DBA48424628 /* Pods-SYTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55301D1F7C276EE65B1684EC37661415 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65DE216C9B6DE1FE6DA6EB6A6D2B7FBC /* SYTencentOpenAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYTencentOpenAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73AD477AA88E15E6CFA53DE5B39D1947 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		84AE7D91C89D1B014022683B2BD0A08A /* SYTencentOpenAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYTencentOpenAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		92462C4111AE6D09DED8A004B21150A2 /* Pods-SYTencentOpenAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYTencentOpenAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		761E20ABDC46A477F2BADE5B0CD99D87 /* Pods-SYTencentOpenAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYTencentOpenAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		8AB7A56C079B8D8679116527F2BF498D /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E747C3A4A0497465A8D3398DF18DAE4 /* Pods-SYTencentOpenAPI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Tests-Info.plist"; sourceTree = "<group>"; };
+		8F4E7BAA243C6DC4CF18006E10C6FA6F /* SYTencentOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYTencentOpenAPI.release.xcconfig; sourceTree = "<group>"; };
 		996406CF178482ACB533A7433D6E8607 /* Pods_SYTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYTencentOpenAPI_Tests.framework; path = "Pods-SYTencentOpenAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FACA10A3662FE82B8A1664ADE66213F /* Pods-SYTencentOpenAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYTencentOpenAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A96FDA4E45F6E01D402765CFCF4775F1 /* Pods-SYTencentOpenAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYTencentOpenAPI_Example.modulemap"; sourceTree = "<group>"; };
+		AF256C32ED0E6708F224B06298DACAB2 /* Pods-SYTencentOpenAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYTencentOpenAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		B931E8A6C3A4F935A5F4C7D90AEAB4E4 /* Pods-SYTencentOpenAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BAB7993BC8D548BF922923470A0B1C76 /* Pods_SYTencentOpenAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYTencentOpenAPI_Example.framework; path = "Pods-SYTencentOpenAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCD61AB8F8AB9741130669515019B70D /* Pods-SYTencentOpenAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYTencentOpenAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2CFC0E087EF0A7252F6A63A7892B58A /* Pods-SYTencentOpenAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYTencentOpenAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDF411002B268A3964360F2DB6632B88 /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF926CEB98B32068E02C481EEAC2CE99 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C28C0AFD93FE3A32239559B5BF619909 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DD74A030D826F7078E61BED9D3A134BE /* Pods-SYTencentOpenAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYTencentOpenAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEAFB1F4B3CB075C8C3A6E64B15EDD21 /* Pods-SYTencentOpenAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYTencentOpenAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		FFC7169016DEB3D7E003BEE0C6FCD78E /* Pods-SYTencentOpenAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYTencentOpenAPI_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,33 +95,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22C8FB7EAB66081E0F9985B41101F044 /* SYTencentOpenAPI */ = {
+		2600FF4A1B5926364A8C638295372BFC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C74482A2E3238D77D9362DEDEF0B4CBE /* Frameworks */,
-				37F423BC37BA81E193F6C0D4542C0171 /* Pod */,
-				A66960A9A0391492DCC842825132506F /* Support Files */,
-			);
-			name = SYTencentOpenAPI;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		37F423BC37BA81E193F6C0D4542C0171 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4DF234FD62D92C66DBBC2176AFF390C3 /* LICENSE */,
-				30B031377E7D485673F7BF5A0AA48F0B /* README.md */,
-				84AE7D91C89D1B014022683B2BD0A08A /* SYTencentOpenAPI.podspec */,
+				C28C0AFD93FE3A32239559B5BF619909 /* LICENSE */,
+				0BE711DC89C865936D693874BC511EB7 /* README.md */,
+				65DE216C9B6DE1FE6DA6EB6A6D2B7FBC /* SYTencentOpenAPI.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		408CB4783DDFCBF2D103B93B393E29F3 /* Development Pods */ = {
+		2DA1A3D37B12E2E94D27B2991757C92C /* Pods-SYTencentOpenAPI_Example */ = {
 			isa = PBXGroup;
 			children = (
-				22C8FB7EAB66081E0F9985B41101F044 /* SYTencentOpenAPI */,
+				424CAC34213E60A3DA2FD4E42DA71E46 /* Pods-SYTencentOpenAPI_Example.modulemap */,
+				1B9A1D082C36FA10947BCD03B145468D /* Pods-SYTencentOpenAPI_Example-acknowledgements.markdown */,
+				B931E8A6C3A4F935A5F4C7D90AEAB4E4 /* Pods-SYTencentOpenAPI_Example-acknowledgements.plist */,
+				AF256C32ED0E6708F224B06298DACAB2 /* Pods-SYTencentOpenAPI_Example-dummy.m */,
+				4418A72608AB522F7C0930A035F8D8A2 /* Pods-SYTencentOpenAPI_Example-Info.plist */,
+				FFC7169016DEB3D7E003BEE0C6FCD78E /* Pods-SYTencentOpenAPI_Example-resources.sh */,
+				761E20ABDC46A477F2BADE5B0CD99D87 /* Pods-SYTencentOpenAPI_Example-umbrella.h */,
+				321D84F6D142B2FDD61ECCD77B2B4746 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */,
+				518DDA6315251DEB3E8F7DBA48424628 /* Pods-SYTencentOpenAPI_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-SYTencentOpenAPI_Example";
+			path = "Target Support Files/Pods-SYTencentOpenAPI_Example";
+			sourceTree = "<group>";
+		};
+		3F8DBB1669D509D22579539138C4CA66 /* SYTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				266C2AF1C76EFB193FB145FA7C64A0E7 /* TencentOpenApi_IOS_Bundle.bundle */,
+				AAD6FD86F4422A8E4475E0A449A9A184 /* Frameworks */,
+				2600FF4A1B5926364A8C638295372BFC /* Pod */,
+				6E66771F2A57724FEF59E18E87D60EB7 /* Support Files */,
+			);
+			name = SYTencentOpenAPI;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -130,27 +142,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FD86F1BC07C7FA29987F00C28143223 /* Pods-SYTencentOpenAPI_Tests */ = {
+		6E66771F2A57724FEF59E18E87D60EB7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B0ED747A216BE003B32EA21FDF288A2 /* Pods-SYTencentOpenAPI_Tests.modulemap */,
-				181BCDF1F1FC0C1E4CCE545140A5DEB2 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown */,
-				BCD61AB8F8AB9741130669515019B70D /* Pods-SYTencentOpenAPI_Tests-acknowledgements.plist */,
-				6CC7350518768F8163F61E124E40D04A /* Pods-SYTencentOpenAPI_Tests-dummy.m */,
-				7057D7E783BEC176325BD18CEA40DB4F /* Pods-SYTencentOpenAPI_Tests-Info.plist */,
-				9FACA10A3662FE82B8A1664ADE66213F /* Pods-SYTencentOpenAPI_Tests-umbrella.h */,
-				CDF411002B268A3964360F2DB6632B88 /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */,
-				73AD477AA88E15E6CFA53DE5B39D1947 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */,
+				3F2632BF4967443E306326893A2A361C /* SYTencentOpenAPI.debug.xcconfig */,
+				8F4E7BAA243C6DC4CF18006E10C6FA6F /* SYTencentOpenAPI.release.xcconfig */,
 			);
-			name = "Pods-SYTencentOpenAPI_Tests";
-			path = "Target Support Files/Pods-SYTencentOpenAPI_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYTencentOpenAPI";
 			sourceTree = "<group>";
 		};
-		7E63C40E38C481393753BCF919410C1F /* Targets Support Files */ = {
+		886FDDA6BA90DE9D1F72B69F486BCA96 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8F5878BA0B466F15F1979DDBD4F4D40 /* Pods-SYTencentOpenAPI_Example */,
-				6FD86F1BC07C7FA29987F00C28143223 /* Pods-SYTencentOpenAPI_Tests */,
+				2DA1A3D37B12E2E94D27B2991757C92C /* Pods-SYTencentOpenAPI_Example */,
+				E9D23F2BD58D45AF2DF70D801B9AC4F2 /* Pods-SYTencentOpenAPI_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -164,48 +170,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A66960A9A0391492DCC842825132506F /* Support Files */ = {
+		AAD6FD86F4422A8E4475E0A449A9A184 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				291166077731CE55C17D25E3F5CB4643 /* SYTencentOpenAPI.debug.xcconfig */,
-				1613F92E8519054DA14735147938B5C9 /* SYTencentOpenAPI.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SYTencentOpenAPI";
-			sourceTree = "<group>";
-		};
-		C74482A2E3238D77D9362DEDEF0B4CBE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				054A46040B39B943B9A366AB1D9E0743 /* TencentOpenAPI.framework */,
+				33DB2184C4A773E27E88AC942003E012 /* TencentOpenAPI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C8F5878BA0B466F15F1979DDBD4F4D40 /* Pods-SYTencentOpenAPI_Example */ = {
-			isa = PBXGroup;
-			children = (
-				A96FDA4E45F6E01D402765CFCF4775F1 /* Pods-SYTencentOpenAPI_Example.modulemap */,
-				C2CFC0E087EF0A7252F6A63A7892B58A /* Pods-SYTencentOpenAPI_Example-acknowledgements.markdown */,
-				2646652FBF2D73BB5E5F664AD9F4214C /* Pods-SYTencentOpenAPI_Example-acknowledgements.plist */,
-				92462C4111AE6D09DED8A004B21150A2 /* Pods-SYTencentOpenAPI_Example-dummy.m */,
-				2A2C3EF7AAB049C721C07E70ED4DAF54 /* Pods-SYTencentOpenAPI_Example-Info.plist */,
-				3C81251601EB37CDAE4F6FB68D123168 /* Pods-SYTencentOpenAPI_Example-umbrella.h */,
-				DF926CEB98B32068E02C481EEAC2CE99 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */,
-				43F349849F1DD386E11E4DB183721B7D /* Pods-SYTencentOpenAPI_Example.release.xcconfig */,
-			);
-			name = "Pods-SYTencentOpenAPI_Example";
-			path = "Target Support Files/Pods-SYTencentOpenAPI_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				408CB4783DDFCBF2D103B93B393E29F3 /* Development Pods */,
+				D662FBB33D8CDAC06D0CF4FD54CFF70D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9E7753B06A454BFE296C272C39FE535F /* Products */,
-				7E63C40E38C481393753BCF919410C1F /* Targets Support Files */,
+				886FDDA6BA90DE9D1F72B69F486BCA96 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +195,30 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D662FBB33D8CDAC06D0CF4FD54CFF70D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F8DBB1669D509D22579539138C4CA66 /* SYTencentOpenAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E9D23F2BD58D45AF2DF70D801B9AC4F2 /* Pods-SYTencentOpenAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FEAFB1F4B3CB075C8C3A6E64B15EDD21 /* Pods-SYTencentOpenAPI_Tests.modulemap */,
+				4B3EDF0F9CEBF6FF153303A1D2F8F889 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.markdown */,
+				55301D1F7C276EE65B1684EC37661415 /* Pods-SYTencentOpenAPI_Tests-acknowledgements.plist */,
+				DD74A030D826F7078E61BED9D3A134BE /* Pods-SYTencentOpenAPI_Tests-dummy.m */,
+				8E747C3A4A0497465A8D3398DF18DAE4 /* Pods-SYTencentOpenAPI_Tests-Info.plist */,
+				248AFEE6832F61F77DA3D1851D7E373E /* Pods-SYTencentOpenAPI_Tests-umbrella.h */,
+				8AB7A56C079B8D8679116527F2BF498D /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */,
+				06B140EB2226C8680C8072CA8DD7A09B /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYTencentOpenAPI_Tests";
+			path = "Target Support Files/Pods-SYTencentOpenAPI_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +255,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0F857615F7BBFE78348C176511123DFB /* PBXTargetDependency */,
+				A3AD16AFB8F348A45754E03D6790E5CB /* PBXTargetDependency */,
 			);
 			name = "Pods-SYTencentOpenAPI_Example";
 			productName = "Pods-SYTencentOpenAPI_Example";
@@ -270,7 +274,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9D1C29690C12F7E1F47C50A95F24E4B3 /* PBXTargetDependency */,
+				7C2275F039FE2CB6DE7E6F083ACC2304 /* PBXTargetDependency */,
 			);
 			name = "Pods-SYTencentOpenAPI_Tests";
 			productName = "Pods-SYTencentOpenAPI_Tests";
@@ -343,24 +347,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F857615F7BBFE78348C176511123DFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SYTencentOpenAPI;
-			target = 7511CCB573831C59061EF0866F540D25 /* SYTencentOpenAPI */;
-			targetProxy = 4479D93FBC7FF4446DF5C1CCD95AE3B4 /* PBXContainerItemProxy */;
-		};
-		9D1C29690C12F7E1F47C50A95F24E4B3 /* PBXTargetDependency */ = {
+		7C2275F039FE2CB6DE7E6F083ACC2304 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SYTencentOpenAPI_Example";
 			target = 3B80577DC4F4D23ECB05964A715413BD /* Pods-SYTencentOpenAPI_Example */;
-			targetProxy = EB2CBFECD771055AB539C4CD855127C5 /* PBXContainerItemProxy */;
+			targetProxy = 98B46AD748174BF1C9F6ED3861956ACB /* PBXContainerItemProxy */;
+		};
+		A3AD16AFB8F348A45754E03D6790E5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYTencentOpenAPI;
+			target = 7511CCB573831C59061EF0866F540D25 /* SYTencentOpenAPI */;
+			targetProxy = FCD444A2E6E28F444847A4250664EEC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		11C89941C03CC3581961109E7DCB245F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291166077731CE55C17D25E3F5CB4643 /* SYTencentOpenAPI.debug.xcconfig */;
+			baseConfigurationReference = 3F2632BF4967443E306326893A2A361C /* SYTencentOpenAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +443,7 @@
 		};
 		A3983A9E77B36C0029ECF68233E4A08D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF411002B268A3964360F2DB6632B88 /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8AB7A56C079B8D8679116527F2BF498D /* Pods-SYTencentOpenAPI_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -471,7 +475,7 @@
 		};
 		A8D414495265F54274B5A6A5774503B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF926CEB98B32068E02C481EEAC2CE99 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */;
+			baseConfigurationReference = 321D84F6D142B2FDD61ECCD77B2B4746 /* Pods-SYTencentOpenAPI_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -503,7 +507,7 @@
 		};
 		B57C0C812608371710ABBFC9E1F1126A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F349849F1DD386E11E4DB183721B7D /* Pods-SYTencentOpenAPI_Example.release.xcconfig */;
+			baseConfigurationReference = 518DDA6315251DEB3E8F7DBA48424628 /* Pods-SYTencentOpenAPI_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -598,7 +602,7 @@
 		};
 		DE7F1E0B186AFD41E6BE7B96C4B087DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73AD477AA88E15E6CFA53DE5B39D1947 /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */;
+			baseConfigurationReference = 06B140EB2226C8680C8072CA8DD7A09B /* Pods-SYTencentOpenAPI_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,7 +635,7 @@
 		};
 		EDF155AB168675C1109A06AEFBB37F11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1613F92E8519054DA14735147938B5C9 /* SYTencentOpenAPI.release.xcconfig */;
+			baseConfigurationReference = 8F4E7BAA243C6DC4CF18006E10C6FA6F /* SYTencentOpenAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

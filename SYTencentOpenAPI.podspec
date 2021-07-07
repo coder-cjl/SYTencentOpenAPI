@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SYTencentOpenAPI/Classes/**/*'
+  s.resource = 'SYTencentOpenAPI/Assets/*.bundle'
   s.vendored_frameworks = 'SYTencentOpenAPI/Vendors/*.framework'
   s.pod_target_xcconfig = {
      'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Framework/' }
